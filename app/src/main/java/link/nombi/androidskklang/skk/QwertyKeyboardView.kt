@@ -10,11 +10,11 @@ import android.util.AttributeSet
 class QwertyKeyboardView : KeyboardView, KeyboardView.OnKeyboardActionListener {
     private lateinit var mService: SKKService
 
-    private val mGreekKeyboard = SKKKeyboard(context, R.xml.qwerty_el, 4)
-    private val mEsperantoKeyboard = SKKKeyboard(context, R.xml.qwerty_eo, 4)
-    private val mLatinKeyboard = SKKKeyboard(context, R.xml.qwerty, 4)
-    private val mGermanKeyboard = SKKKeyboard(context, R.xml.qwerty_de, 4)
-    private val mRussianKeyboard = SKKKeyboard(context, R.xml.qwerty_ru, 4)
+    private val mGreekKeyboard = SKKKeyboard(context, R.xml.qwerty_el, 5)
+    private val mEsperantoKeyboard = SKKKeyboard(context, R.xml.qwerty_eo, 5)
+    private val mLatinKeyboard = SKKKeyboard(context, R.xml.qwerty, 5)
+    private val mGermanKeyboard = SKKKeyboard(context, R.xml.qwerty_de, 5)
+    private val mRussianKeyboard = SKKKeyboard(context, R.xml.qwerty_ru, 5)
     private val mSymbolsKeyboard = SKKKeyboard(context, R.xml.symbols, 4)
     private val mSymbolsShiftedKeyboard = SKKKeyboard(context, R.xml.symbols_shift, 4)
 
